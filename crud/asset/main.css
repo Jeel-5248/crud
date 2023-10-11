@@ -1,0 +1,24 @@
+/* #pageBorder{
+    height: 100vh !important
+} */
+#main{
+    margin: 10px 0;
+    align-items: center;
+}
+#title{
+    flex-grow: 1;
+}
+#button{
+    margin: 0px;
+}
+.custom-switch .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: green; /* Change to your desired "on" color */
+}
+
+.custom-switch .custom-control-label::before {
+    background-color: red; /* Change to your desired "off" color */
+}
+#status {
+    width: auto;
+    display: inline-block
+}
